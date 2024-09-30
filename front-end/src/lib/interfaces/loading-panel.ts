@@ -1,0 +1,10 @@
+enum LOADING_TYPE {
+	SPINNER,
+	DOTS,
+	RING,
+	BALL,
+	BARS,
+	INFINITY
+}
+
+export { LOADING_TYPE };
