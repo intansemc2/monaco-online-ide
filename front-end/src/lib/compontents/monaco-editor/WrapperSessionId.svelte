@@ -236,6 +236,11 @@
 	<div class="flex-shrink-0 overflow-auto pl-1" style="width: {questionWidth}%;">
 		<div class="flex min-h-[100vh] flex-col overflow-auto pr-1">
 			<div class="mb-1 flex items-center gap-1">
+				<a href="/" class="btn btn-sm rounded-none font-normal">
+					<Icon icon="pajamas:go-back" width="16" height="16" />
+					Back
+				</a>
+
 				<button
 					class="btn btn-outline btn-success btn-sm rounded-none font-normal"
 					on:click={onRun}

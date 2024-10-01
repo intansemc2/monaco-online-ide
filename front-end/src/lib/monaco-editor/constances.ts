@@ -15,7 +15,7 @@ const MONACO_THEMES = [
 	{ id: MONACO_SUPPORT_THEME.dark_plus, name: 'Dark+' },
 	{ id: MONACO_SUPPORT_THEME.light_plus, name: 'Light+' }
 ];
-const MONACO_DAISYUI_THEME = new Map([
+const MONACO_DAISYUI_THEME = new Map<MONACO_SUPPORT_THEME, DAISYUI_THEME>([
 	[MONACO_SUPPORT_THEME.dark, 'dark'],
 	[MONACO_SUPPORT_THEME.light, 'light'],
 	[MONACO_SUPPORT_THEME.high_contrast_dark, 'dark'],
@@ -56,7 +56,10 @@ const EDITOR_SUPPORT_FONTSIZE = [
 	{ id: 24, name: 'Very big' }
 ];
 
+type DAISYUI_THEME = 'light' | 'dark';
+
 export {
+	type DAISYUI_THEME,
 	MONACO_SUPPORT_THEME,
 	MONACO_THEMES,
 	MONACO_DAISYUI_THEME,
