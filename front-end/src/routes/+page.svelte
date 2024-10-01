@@ -10,10 +10,18 @@
 	<div class="flex items-center gap-2">
 		<a
 			href="/python"
-			class="flex items-center flex-col gap-2 bg-base-100 p-3 select-none cursor-pointer hover:border-2 hover:bg-base-300"
+			class="flex items-center flex-col gap-2 bg-base-100 p-3 select-none cursor-pointer border-transparent border-2 hover:border-base-200 hover:bg-base-300"
 		>
 			<img src="/images/python-logo.png" alt="" class="w-20 h-20" />
 			<div>Python</div>
+		</a>
+
+		<a
+			href="/cpp"
+			class="flex items-center flex-col gap-2 bg-base-100 p-3 select-none cursor-pointer border-transparent border-2 hover:border-base-200 hover:bg-base-300"
+		>
+			<img src="/images/cpp-logo.png" alt="" class="w-20 h-20" />
+			<div>C++</div>
 		</a>
 	</div>
 </div>

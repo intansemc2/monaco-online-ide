@@ -1,0 +1,15 @@
+CompileFlags:
+    # Treat code as C++, use C++11 standard, enable more warnings.
+    Add: [-xc++, -std=c++11, -Wall, -Wno-missing-prototypes, -march=native, -I/usr/include/c++/11, -I/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    Remove: -W* # strip all other warning-related flags
+    Compiler: clang++ # Change argv[0] of compile flags to `clang++`
+Diagnostics:
+    # Tweak Clang-Tidy checks.
+    ClangTidy:
+        Add: [performance*, modernize*, readability*]
+        Remove: [modernize-use-trailing-return-type]
+        CheckOptions:
+            readability-identifier-naming.VariableCase: CamelCase
+Index:
+    Background: Build
+    StandardLibrary: Yes
