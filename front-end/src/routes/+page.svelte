@@ -23,5 +23,13 @@
 			<img src="/images/cpp-logo.png" alt="" class="w-20 h-20" />
 			<div>C++</div>
 		</a>
+
+		<a
+			href="/java"
+			class="flex items-center flex-col gap-2 bg-base-100 p-3 select-none cursor-pointer border-transparent border-2 hover:border-base-200 hover:bg-base-300"
+		>
+			<img src="/images/java-logo.png" alt="" class="w-20 h-20" />
+			<div>Java</div>
+		</a>
 	</div>
 </div>
