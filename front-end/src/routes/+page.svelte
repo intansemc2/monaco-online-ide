@@ -39,5 +39,13 @@
 			<img src="/images/javascript-logo.png" alt="" class="w-20 h-20" />
 			<div>Javascript</div>
 		</a>
+
+		<a
+			href="/php"
+			class="flex items-center flex-col gap-2 bg-base-100 p-3 select-none cursor-pointer border-transparent border-2 hover:border-base-200 hover:bg-base-300"
+		>
+			<img src="/images/php-logo.png" alt="" class="w-20 h-20" />
+			<div>PHP</div>
+		</a>
 	</div>
 </div>
